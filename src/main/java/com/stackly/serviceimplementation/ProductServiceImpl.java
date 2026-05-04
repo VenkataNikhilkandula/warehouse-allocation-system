@@ -11,25 +11,6 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
 import java.util.List;
-//
-//@Service
-//@RequiredArgsConstructor
-//public abstract class ProductServiceImpl implements ProductService {
-//    @Autowired
-//    private Productrepository repo;
-//
-//    public ProductResponse create(ProductRequest req) {
-//        Product p = new Product();
-//        p.setName(req.getName());
-//        p.setSku(req.getSku());
-//        p.setTotalStock(req.getTotalStock());
-//        return repo.save(p);
-//    }
-//
-//    public List<Product> getAll() {
-//        return repo.findAll();
-//    }
-//}
 
 @Service
 @RequiredArgsConstructor
