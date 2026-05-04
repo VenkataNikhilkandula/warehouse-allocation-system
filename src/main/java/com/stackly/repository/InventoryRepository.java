@@ -1,15 +1,3 @@
-//package com.stackly.repository;
-//
-//import java.util.List;
-//
-//import org.springframework.data.jpa.repository.JpaRepository;
-//
-//import com.stackly.entity.WarehouseInventory;
-//
-//public interface InventoryRepository extends JpaRepository<WarehouseInventory, Long> {
-//    List<WarehouseInventory> findByProductId(Long productId);
-//}
-
 package com.stackly.repository;
 
 import org.springframework.data.jpa.repository.JpaRepository;
